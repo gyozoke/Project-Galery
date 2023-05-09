@@ -1,29 +1,56 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>My Hobby Page</title>
+      <title>Project Page</title>
       <link rel="stylesheet" type="text/css" href="index.css" />
-      <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Martel+Sans">
-      <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel+Sans">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
       <header>
         <div class="logo">
-          <img src="Images/Logo_Hobby_Page.png" height="50" width="75" alt="logo of hobby page">
+          <img src="Images/Project_Logo.png" height="50" width="75" alt="logo of hobby page">
         </div>
-          <div id="today">
-            <script src="index.js"></script>
-          </div>
+        <div id="today">
+          <script src="index.js"></script>
+        </div>
       </header>
       <div class="container">
         <div class="card">
-          <img src="Images/Hobby-Page-Image.png" alt="images of hobby page">
+          <img src="Images/Hobby-Page-Image.png" alt="image of hobby page">
+          <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">Description</button>
+            <div id="myDropdown" class="dropdown-content">
+             <p>
+              My Hobby Page represents what I love the most and that is the movies.
+              Please check out some of my favourites movies I listed on the page.
+             </p>
+            </div>
+          </div>
+          <a href="https://gyozoke.github.io/Hobby-Page/" target="_blank">
+            <button class="viewbtn">View Page</button>
+          </a>
         </div>
         <div class="card">
-          <img src="" alt="">
+          <img src="Images/Project-Page-Image.png" alt="image of project page">
+          <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">Description</button>
+            <div id="myDropdown" class="dropdown-content">
+             <p>
+              Projects Page presents all the projects I worked on for Founders And Coders.
+             </p>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button onclick="myFunction(this)" class="dropbtn">View Page</button>
+            <div id="myDropdown" class="dropdown-content">
+             <p>
+              You are here!!
+             </p>
+            </div>
+          </div>
         </div>
         <div class="card">
           <img src="" alt="">
@@ -35,11 +62,6 @@
           <img src="" alt="">
         </div>
       </div>
-
-
-
-
-
       <footer>
         <p>@ Gyozo Vancsura 2023</p>
       </footer>
